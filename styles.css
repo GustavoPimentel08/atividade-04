@@ -1,0 +1,51 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: greenyellow;
+}
+
+.cabecalho {
+    background-color: #679967;
+    text-align: center;
+    font-size: large;
+
+}
+
+.TT {
+    background-color: rgb(118, 109, 199);
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+.pp {
+    text-align: center;
+    color: rgb(68, 0, 131);
+}
+
+.conteudo{
+    background-color: brown;
+    color: white;
+}
+
+
+/* esse direcionamento coloca um seletor direto da aonde você quer mexer apenas a class */
+.conteudo > p {
+    color: #E4005A;
+    font-size: 42px;
+}
+
+.conteudo > p:nth-child(3) {
+    color: purple;  /* Cor roxa */
+    font-size: 42px;
+    vertical-align: sub; /* Texto subscrito */
+}
+
+@media (max-width: 480px) {
+    .container {
+        background-color: #ADD8E6; /* Cor azul claro */
+    }
+}
